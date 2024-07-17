@@ -13,3 +13,13 @@ const bebidaMenor = "suco";
 const pedido = `${nome} diz: "por favor, quero beber ${idade >= 18 ? bebidaMaior : bebidaMenor}"`
 console.log(pedido)
 
+
+function ganhoPorHora(salario, horasTrabalhadasNoMes) {
+
+    const salarioHora = (salario / horasTrabalhadasNoMes); 
+  
+    return Math.round(salarioHora);
+  
+  }
+  
+ganhoPorHora(3000,176);
